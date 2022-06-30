@@ -13,10 +13,10 @@
 
 h1 {
    display: block;
-   magin-blo
 }
 
 header {
+    font-family: var(--fonte3);
     background-color: black;
     min-width: 150px;
     text-align: center;
