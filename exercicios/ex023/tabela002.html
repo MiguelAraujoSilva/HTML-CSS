@@ -13,17 +13,31 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
             border: 1px solid black;
             padding: 10px;
         }
-
+        
         caption {
             font-size: 1.5em;
             font-weight: bold;
             padding: 10px;
+            background-color: lightgray;
+        }
+
+        thead > tr >th {
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+        }
+
+        tbody > tr:nth-child(odd) { /* 2n-1 */
+            background-color: white;
+        }
+        tbody > tr:nth-child(even) { /* 2n */
             background-color: lightgray;
         }
 
@@ -175,5 +189,6 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, delectus fuga cumque sequi modi voluptas dignissimos! Est dolores odio sint tempora beatae voluptatum, optio harum perferendis sunt, eius asperiores possimus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore debitis nesciunt iure labore nobis. Deserunt eligendi, ipsam doloribus excepturi quis nam, perspiciatis corrupti quam repellat sed, iure doloremque. Obcaecati, magni. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti tempore exercitationem quod unde incidunt placeat sunt tenetur qui, veritatis fugit rerum delectus temporibus harum labore reiciendis dolorum voluptas, iste quas. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione doloribus id deserunt sapiente omnis impedit pariatur nihil maxime culpa minus, nobis nam quam iusto nesciunt hic fugit debitis architecto quis!</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, delectus fuga cumque sequi modi voluptas dignissimos! Est dolores odio sint tempora beatae voluptatum, optio harum perferendis sunt, eius asperiores possimus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore debitis nesciunt iure labore nobis. Deserunt eligendi, ipsam doloribus excepturi quis nam, perspiciatis corrupti quam repellat sed, iure doloremque. Obcaecati, magni. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti tempore exercitationem quod unde incidunt placeat sunt tenetur qui, veritatis fugit rerum delectus temporibus harum labore reiciendis dolorum voluptas, iste quas. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione doloribus id deserunt sapiente omnis impedit pariatur nihil maxime culpa minus, nobis nam quam iusto nesciunt hic fugit debitis architecto quis!</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, delectus fuga cumque sequi modi voluptas dignissimos! Est dolores odio sint tempora beatae voluptatum, optio harum perferendis sunt, eius asperiores possimus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore debitis nesciunt iure labore nobis. Deserunt eligendi, ipsam doloribus excepturi quis nam, perspiciatis corrupti quam repellat sed, iure doloremque. Obcaecati, magni. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti tempore exercitationem quod unde incidunt placeat sunt tenetur qui, veritatis fugit rerum delectus temporibus harum labore reiciendis dolorum voluptas, iste quas. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione doloribus id deserunt sapiente omnis impedit pariatur nihil maxime culpa minus, nobis nam quam iusto nesciunt hic fugit debitis architecto quis!</p>
 </body>
 </html>
